@@ -1,0 +1,31 @@
+@import  "bootstrap/dist/css/bootstrap.min.css";
+@import "./globals.css";
+@import "./common/breadcrumb.css";
+@import "./layout/mainmenu.css";
+@import "./layout/topbar.css";
+@import "./layout/footer.component.css";
+@import "./auth/login.component.css";
+@import "./auth/register.component.css";
+@import "./home/intro.component.css";
+@import "./home/latestnews.component.css";
+/*@import "./home/packs.component.css";*/
+@import "./home/classes/classesList.component.css";
+@import "./home/classes/classes-table.component.css";
+
+
+@import "./homeadmin/home-admin-intro.component.css";
+@import "./homeadmin/packs/pack-create.component.css";
+@import "./home/trainers.component.css";
+
+@import "./home/aboutus.component.css";
+@import "./home/whyChooseUs.css";
+@import "./home/workProcess.component.css";
+@import "./home/ContactUs.component.css";
+
+
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+/*================
+ Class Schedule Section
+==================*/
+
+.class-schedule-section{
+	padding: 120px 0px;
+}
+.class-schedule-section table{
+	width: 100%;
+	text-transform: capitalize;
+}
+.class-schedule-section table, tr, th, td{
+	border: 1px solid rgba(112, 112, 112, 40%);
+}
+.class-schedule-section table tr th{
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 1.2;
+	color: var(--main-color);
+	padding: 45px;
+}
+.class-schedule-section table tr td{
+	font-size: 26px;
+	font-weight: 600;
+	line-height: 1.4;
+	padding: 30px 30px 30px 45px;
+	border-bottom: 1px solid transparent;
+}
+.class-schedule-section table tr td:first-child{
+	color: var(--title-color);
+}
+.class-schedule-section table tr:last-child td{
+	border: 1px solid rgba(112, 112, 112, 40%);
+}
+.class-schedule-section table tr:nth-child(even){
+	background-color: rgba(112, 112, 112, 6%);
+}
+
+/* Responsive */
+
+@media (max-width: 991px) {
+	.class-schedule-section table tr th{
+		font-size: 32px;
+		padding: 39px;
+	}
+	.class-schedule-section table tr td{
+		font-size: 22px;
+		padding: 20px 24px 20px 39px;
+	}
+}
+@media (max-width: 767px) {
+	.class-schedule-section{
+		padding: 80px 0px;
+	}
+	.class-schedule-section table tr th{
+		font-size: 18px;
+		padding: 25px;
+	}
+	.class-schedule-section table tr td{
+		font-size: 16px;
+		padding: 10px;
+	}
+}

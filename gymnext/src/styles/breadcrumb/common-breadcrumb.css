@@ -1,0 +1,59 @@
+/*=============
+ Breadcrumb
+===============*/
+
+.breadcrumb-area{
+   
+    background-image:	url(/assets/images/breadcrumb-img.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+	height: 4em !important;
+	min-width: 100% !important;
+	
+	/*padding: 138px 0px 156px;*/
+}
+.breadcrumb-area .heading{
+	color: #fff;
+	margin-bottom: 10px;
+	margin-top: 1.7em;
+}
+.breadcrumb-area .contact-box{
+	display: flex;
+	font-size: 20px;
+	color: #fff;
+	font-weight: 500;
+	align-items: center;
+}
+.breadcrumb-area .contact-box ul li a{
+	color: #fff;
+	transition: 0.3s;
+}
+.breadcrumb-area .contact-box ul li a:hover{
+	color: var(--main-color);
+}
+.breadcrumb-area .contact-box span i{
+	font-size: 18px;
+	margin: 0px 10px;
+}
+
+/* Responsive */
+
+@media (max-width: 1199px) {
+	.breadcrumb-area .heading{
+		font-size: 38px;
+	}
+}
+@media (max-width: 767px) {
+	section .breadcrumb-area{
+		padding: 88px 0px 92px;
+		background-size: 80%;
+		max-height: 5em !important;
+	}
+	.breadcrumb-area .heading{
+		font-size: 34px;
+	}
+	.breadcrumb-area .contact-box{
+		font-size: 18px;
+	}
+}
